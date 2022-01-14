@@ -1,1 +1,1 @@
-# Wines of the vinho verde region of Portugal a
+# Wines of the vinho verde region of Portugal
