@@ -1,6 +1,10 @@
 # Wines of the vinho verde region of Portugal
-These wines are especially prized for their freshness and quality.
-The code in this project runs a scatter graph that displays ratings of professional wine tasters. Each rating is represented by a colored dot on the graph.
-The dots are arranged on an xy plot, with the x-axis representing pH (lower values are more acidic; higher values are more basic) and with the y-axis representing percentage of alcohol content.
+In selecting my first machine learning project, I wanted a topic that was not inherently controversial, not subject to privacy or data protection concerns, had popular appeal, and most importantly, would encourage experimentation and courage in spite of possible error on my part.
 
-What the scatter plot appears to show is that vinho verde wines with a higher percentage of acohol content are generally given higher taster ratings than those with a lower percentage of alcohol content.
+My project has two objectives:
+
+To the extent possible, attempt to duplicate the regression result of the study authors, using Python machine learning libraries.
+Using classification methods such as decision trees, determine whether the precision and recall achieved by the original study may be improved.
+The code in this notebook may be used to evaluate either white wine or red wine. For this study, I have chosen to focus on white wine because it is the more robust of the two datasets, and because, as the paper authors relate, white vinho verde wine is the more predominant Portuguese export. Also, because the notebook takes several minutes to run to completion, it seemed appropriate to choose a single wine varietal for the models to evaluate, rather than require that they evaluate them both.
+
+Note also that because the models are stochastic in nature, results will vary by small amounts each time the notebook is run.
